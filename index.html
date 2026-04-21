@@ -48,7 +48,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[35.89917935581895,139.59416780215824],[35.938730231833354,139.67521013455226]]);
+        }).fitBounds([[35.50266782321276,139.31437965658827],[36.76829585567364,141.754583345074]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -223,11 +223,33 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_tochigi_town_2',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_tochigi_town_2',
-                stroke: false, 
-                fillOpacity: 0,
+                opacity: 1,
+                color: 'rgba(35,35,35,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
@@ -338,11 +360,33 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_ibaraki_town_4',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_ibaraki_town_4',
-                stroke: false, 
-                fillOpacity: 0,
+                opacity: 1,
+                color: 'rgba(35,35,35,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
@@ -453,11 +497,33 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_chiba_town_6',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_chiba_town_6',
-                stroke: false, 
-                fillOpacity: 0,
+                opacity: 1,
+                color: 'rgba(35,35,35,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
@@ -698,11 +764,33 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_gunma_town_10',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_gunma_town_10',
-                stroke: false, 
-                fillOpacity: 0,
+                opacity: 1,
+                color: 'rgba(35,35,35,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
